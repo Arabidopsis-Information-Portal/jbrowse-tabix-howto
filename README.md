@@ -124,13 +124,13 @@ $ ichmod -rV read anonymous /iplant/home/vivek/share
 	```
 + **Step 5**: Prepare anonymous access URLs for files uploaded to CyVerse Data Store
 
-The CyVerse Data Store presents files for HTTP access via the following URL prefix: **http://de.iplantcollaborative.org/anon-files/**
+The CyVerse Data Store presents files for HTTP access via the following URL prefix: **https://de.iplantcollaborative.org/anon-files/**
 
 Based on this, the URLs to access our GFF3 file + Tabix index will be as follows:
 
 ```
-http://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_araport11.sorted.gff.gz
-http://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_araport11.sorted.gff.gz.tbi
+https://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_araport11.sorted.gff.gz
+https://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_araport11.sorted.gff.gz.tbi
 ```
 
 + **Step 6**: Temporarily load the files and view on the Araport JBrowse instance
@@ -160,7 +160,7 @@ storeClass  = JBrowse/Store/SeqFeature/GFF3Tabix
 type        = JBrowse/View/Track/CanvasFeatures
 category    = Community Data Tracks
 key         = Araport11 Upstream ORFs (Bailey-Serres et al., Personal Communication)
-urlTemplate = http://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_araport11.sorted.gff.gz
+urlTemplate = https://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_araport11.sorted.gff.gz
 	```  
 	
 	+ Push the config file into the **CyVerse Data Store** and change permissions to enable `anonymous` access
