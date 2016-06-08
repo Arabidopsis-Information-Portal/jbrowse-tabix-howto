@@ -134,7 +134,7 @@ https://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_ar
 ```
 
 + **Step 6**: Temporarily load the files and view on the Araport JBrowse instance
-	+ Visit Araport JBrowse: [https://apps.araport.org/jbrowse/?data=arabidopsis](http://jcvi06.tacc.utexas.edu/jbrowse-1.12.2/?data=arabidopsis)
+	+ Visit Araport JBrowse: [https://apps.araport.org/jbrowse-1.12.2/?data=sandbox-data](https://apps.araport.org/jbrowse-1.12.2/?data=sandbox-data)
 	
 	+ Navigate to the ***File*** menu and choose the ***Open track file or URL*** option.  
 	![JBrowse File Menu](assets/jbrowse-file-menu.png)  
@@ -178,7 +178,11 @@ $ ils
 	uorf_tracks.conf
 ```
 
-	+ Share the path to your track config file via the [Araport Contact Us Form](https://www.araport.org/contact-us/) or via email to <mailto:araport@jcvi.org>
+	+ Share the path to your track config file via the [Araport Contact Us Form](https://www.araport.org/contact-us/) or via email to <mailto:araport@jcvi.org>. For example, in this case, the URL to the track config file would be:
+	<https://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_tracks.conf>
+	
+	+ The Araport team will review the track configuration and populate into the persistent track store, ready for viewing by the public, as seen below:  	
+	![JBrowse Remote Track Loaded - Visible in TrackList](./assets/jbrowse-remote-track-loaded.png)
 
 * * *
 
