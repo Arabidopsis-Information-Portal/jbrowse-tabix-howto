@@ -1,4 +1,4 @@
-![AIP][1]
+![AIP](http://bit.ly/aip-logo)
 Arabidopsis Information Portal
 
 Viewing remotely-located indexed GFF3 files in JBrowse
@@ -137,10 +137,10 @@ http://de.iplantcollaborative.org/anon-files/iplant/home/vivek/share/uorf_60_ara
 	+ Visit Araport JBrowse: [https://apps.araport.org/jbrowse/?data=arabidopsis](http://jcvi06.tacc.utexas.edu/jbrowse-1.12.2/?data=arabidopsis)
 	
 	+ Navigate to the ***File*** menu and choose the ***Open track file or URL*** option.  
-	![JBrowse File Menu][2]
+	![JBrowse File Menu](assets/jbrowse-file-menu.png)  
 	
 	+ Copy and paste the anonymous access URLs into the ***Remote URLs - one per line*** text box. Once JBrowse recognizes valid URLs, the ***Files and URLs*** panel (located in the middle) will be updated, and simultaneously the ***New tracks*** panel (located at the bottom) updates with a new track entry showing an auto-populated track label, track glyph type and controls for advanced configuration.  
-	![JBrowse Load Remote File by URL][3]  
+	![JBrowse Load Remote File by URL](assets/jbrowse-load-remote-gff3tabix.png)  
 	You can repeat the above steps multiple times to add one or more files of interest.
 	
 	+ Once all files have been staged, either choose ***Open Immediately*** to see the data promptly after clicking the **Open** button or choose ***Add to tracks*** to populate the track selector on the left hand side of the JBrowse window with a list of remotely loaded resources (it will appear at the top of the list, under the category named ***Local tracks***).  
@@ -183,7 +183,3 @@ $ ils
 * * *
 
 If you have any questions regarding the process described above, please write to <mailto:araport@jcvi.org>
-
-[1]: http://bit.ly/aip-logo
-[2]: assets/jbrowse-file-menu.png
-[3]: assets/jbrowse-load-remote-gff3tabix.png
