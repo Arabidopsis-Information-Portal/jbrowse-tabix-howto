@@ -1,9 +1,9 @@
 ![AIP](http://bit.ly/aip-logo)
 Arabidopsis Information Portal
+* * *
 
 Viewing remotely-located indexed GFF3 files in JBrowse
 ---
-* * *
 
 The following document explains the steps to prepare and upload *tabix*-indexed *GFF3* files into the *CyVerse Data Store* and visualize the data in a Genome Browser instance like *JBrowse*.
 
